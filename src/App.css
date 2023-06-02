@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,40 @@
   }
   to {
     transform: rotate(360deg);
-  }
+  } */
+input{
+  border: none;
+  box-shadow: 0px 0px 10px rgb(81, 80, 80);
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+}
+input:focus{
+  text-decoration: none;
+}
+input:focus-within{
+  border: 2px solid aqua;
+
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+button{
+  width: auto;
+  padding: 5px 30px;
+  margin: 10px;
+  border: 2px solid white;
+  font-size: 1.2rem;
+  border-radius: 200px;
+  box-shadow: 0px 0px 10px rgb(70, 69, 69);
+  cursor: pointer;
+}
+button:active{
+  color: red;
+  background-color: antiquewhite;
 }
